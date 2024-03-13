@@ -16,11 +16,11 @@ public class Total_Cost {
         String product = scan.nextLine();
 
         // Prompt user for quantity
-        System.out.println("Enter the quantity:");
+        System.out.println("Enter the quantity you wish:");
         int qty = scan.nextInt();
 
         // Prompt user for price per unit
-        System.out.println("Enter the price per unit:");
+        System.out.println("Enter the price per item:");
         int price = scan.nextInt();
 
         // Prompt user for miles for delivery
@@ -45,7 +45,7 @@ public class Total_Cost {
         // Total cost for all printed out
         System.out.println("Item: " + product);
         System.out.println("Quantity: " + qty);
-        System.out.println("Price per unit: $" + price);
+        System.out.println("Price per item: $" + price);
         System.out.println("Miles for delivery: " + miles);
         System.out.println("Total Cost: $" + total);
 
