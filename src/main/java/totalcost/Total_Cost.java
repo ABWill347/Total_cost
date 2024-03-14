@@ -19,7 +19,7 @@ public class Total_Cost {
         System.out.println("Enter the quantity you wish:");
         int qty = scan.nextInt();
 
-        // Prompt user for price per unit
+        // Prompt user for price per item
         System.out.println("Enter the price per item:");
         int price = scan.nextInt();
 
